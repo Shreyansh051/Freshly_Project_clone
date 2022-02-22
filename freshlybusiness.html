@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(1, 500px);
+            width:100%;
+            margin-top:50px;
+            grid-gap:30px;
+        }
+        #parent > div{
+            /* border:1px solid red; */
+        }
+        #parent > div:first-child{
+            width:120%;
+        }
+        #parent > div:last-child{
+            margin-left:160px;
+        }
+        h1{
+            margin-top:70px;
+            font-size:50px;
+        }
+        button{
+            height:40px;
+            width:120px;
+            margin-top:10px;
+            background-color:blue;
+            color:white;
+            font-size:17px;
+        }
+        #parent2{
+            display:grid;
+            grid-template-columns:repeat(3, 1fr);
+            grid-template-rows:repeat(1);
+            height:300px;
+           margin:auto;
+            width:80%;
+            gap:40px;
+           
+        }
+        #parent2 > div{
+            /* border : 1px solid red; */
+            text-align:center;
+        }
+        #parent3{
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(1);
+            height:800px;
+           margin:auto;
+            width:100%;
+            gap:40px;
+            margin-top:0px;
+           
+          
+        }
+        #parent3 > div{
+            /* border : 1px solid red; */
+            text-align:center;
+          
+        }
+        h4{
+           font-size:30px;
+           margin-left:70px;
+           margin-right:70px;
+        }
+        .hunt{
+            /* margin-left:100px;
+            margin-right:100px; */
+            text-align:center;
+
+
+        }
+        .gone{
+            /* border:1px solid red; */
+            width:50%;
+           margin:auto;
+        }
+        .gone1{
+            height:70px;
+        }
+        #parent3 > div:first-child{
+            margin-left:10px;
+        }
+        .right{
+            text-align:center;
+        }
+        #parent4 >div{
+            /* border:1px solid red; */
+            height:180px;
+            width:50%;
+            margin:auto;
+        }
+        #parent5{
+            display:grid;
+            grid-template-columns:repeat(2, 1fr);
+            grid-template-rows:repeat(1,);
+            grid-gap:60px;
+            height:500px;
+            width:100%;
+           
+        }
+        #parent5 > div{
+            /* border:1px solid red; */
+           
+        }
+        #parent5 > div:last-child{
+            padding-top:10px;
+        }
+        
+        
+        #parent6{
+         /* border:1px solid red; */
+         height:700px;
+         width:100%;
+        
+        
+        
+        }
+        #parent6>div{
+             /* border:1px solid red; */
+             height:70px;
+             margin-top:20px;
+        
+
+        }
+        .child{
+            display:grid;
+       grid-template-columns:repeat(2, 1fr);
+       grid-template-rows:repeat(1)
+       
+      
+        }
+        .child>div{
+            /* border:1px solid red; */
+        }
+        .son{
+            width:340px;
+            height:28px;
+            border-radius:6px;
+            margin-top:8px;
+        }
+        .son1{
+            width:97%;
+            height:28px;
+            border-radius:6px;
+            margin-top:8px;
+        }
+
+      
+        
+        
+        
+        
+        
+       
+        
+       
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>
+            <img style="height:100%; width:100%;" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/61f12ccf2bb8f14594e77772_22_B2B_GetFreshlyBusiness_859x376.jpg"  alt=""/>
+        </div>
+        <div>
+<h1>Freshly for Business</h1>
+<h3>Chef made & delivered fresh for your entire team.</h3>
+<p>Make the Whole office happy, and stay on budget, with our rotating meny of delicious, single-serve meals starting as low as $8.49</p>
+<button>Get Started</button>
+        </div>
+    </div>
+    <center>
+    <h1>How it works</h1>
+</center>
+<div id="parent2">
+    <div>
+        <center>
+        <img class="gone1" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5e5fec3e55adb917453cb00d_choosemeals-copy-2-x%402x-2.png" alt=""/>
+    </center>
+    <h2>Dedicated concierge service</h2>
+    <p>Our team helps with everything: from account setup to meal selection.</p>
+    </div>
+    <div>
+        <center>
+        <img class="gone1" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5e5fec493f08a44319e2077a_choosemeals-copy-2-x%402x-3.png"  alt=""/>
+    </center>
+    <h2>We cook & deliver</h2>
+    <p>Fresh from our kitchen to your fridger</p>
+    
+    </div>
+    <div>
+        <center>
+        <img class="gone1" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5e5fec593f08a40c82e2078a_choosemeals-copy-2-x%402x.png"  alt=""/>
+    </center>
+    <h2>Heat, eat, back to business</h2>
+    <p>Busy schedule? Meals are ready to eat in 3 minutes or less</p>
+    </div>
+</div>
+<div id ="parent3">
+    <div>
+        <h4>Freshly makes it easy to get delicious, nutritious meals for everyone in your office.</h4>
+        <div class="gone">
+        <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ece1ba1482fc42c0752be5a_01.svg"  alt=""/>
+    <p class="hunt">Heat and eat in 3 minutes. No fancy kitchen or messy cleanup required.</p>
+    </div>
+        <br><br><br><br>
+        <div class="gone">
+        <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ece1ba34aa1f879c25c211b_box.svg"  alt=""/>
+      <p>A rotating menu of 30+ dishes satisfies even the pickiest eater in the office.</p>
+    </div>
+        <br><br><br><br>
+        <div class="gone">
+        <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ece1ba149bce1b7715c065f_check.svg"  alt=""/>
+        <p>More cost efficient than office catering, restaurant delivery, or competitor options.</p>
+    </div>
+        <br><br><br><br>
+        <div class="gone">
+        <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ece1ba14aa1f8480a5c2106_leaf%20(2).svg"  alt=""/>
+        <p>All Freshly meals are certified gluten-free. Options are available to meet many other dietary preferences.</p>
+    </div>
+    </div>
+    <div>
+        <img style="height:100%; width:100%"; src="https://lh3.googleusercontent.com/KqEzRTSnh9goPmogoSIWVGJ7dNzi7La6GesWQqrNO7Lq14J8U18c9fGQ45RbknMiBDb6ndzjQg4Q9EFiRof8ho61cU-HLNUDTOIjS3NQ"  alt=""/>
+    </div>
+</div>
+<h1 class="right">A Simple recipe</h1>
+<div id = "parent4">
+    <div><center>
+        <img style="height:100px;"src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5e6267614527706c4d475277_Heat%26Eat-white-BG.gif" alt=""/>
+        <p>Each Freshly meal is one serving, for one person, at one setting-just heat and eat!</p>
+    </center>
+    </div>
+   </div>
+   <div id="parent5">
+      
+           <div>
+           
+               <img style="width:100%; height:100%;" src="https://lh3.googleusercontent.com/5i_KjEBEjN_YvjPIGtJcCqEbVm7y1Em5emIXTW3b4r6FjJ0UXUOPrTVVJdouREF9L92bkZKt3EVzbo31S9RU92MSnwsuy-NI15GSoAG0" alt=""/>
+              
+            </div>
+            <div id="parent6">
+                <h1>Get Freshly for business today!</h1>
+                <div class="child">
+                 <div> 
+                     First Name
+                     <br><input class="son" type="text" placeholder="Jane">
+                    </div>
+                 <div>
+                     Last Name
+                     <br><input class="son" type="text" placeholder="Smith">
+                    </div>
+                </div>
+                <div>
+                    Role
+                    <br><input class="son1" type="text" placeholder="Office Manger">
+                </div>
+                <div>
+                    Email
+                    <br><input class="son1" type="text" placeholder="Freshly@freshly.com">
+                </div>
+                <div>
+                    Company name <br><input class="son1" type="text" placeholder="Freshly">
+                </div>
+                <div class="child">
+                      <div>
+                          Phone Number <br><input class="son" type="text" placeholder="xxx-xxx-xxxx">
+                      </div>
+                      <div>
+                        Zip <br><input class="son" type="text" placeholder="111111">
+                      </div>
+                </div>
+                <button>Get Started</button>
+                <br>
+                <br>
+                <p>By continuing,  you  agree  to our<a href=" "> Team </a> and <a href=" ">Privary policy </a> &  will receive emails from Freshly</a></p>
+            </div>
+          
+</body>
+</html>
