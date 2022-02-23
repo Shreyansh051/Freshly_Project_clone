@@ -34,7 +34,7 @@
         }
 
         .horizontal {
-            width: 100%;
+            width: 99%;
             border: 0.01px solid black;
 
         }
@@ -53,6 +53,11 @@
             padding: 40px 32px;
         }
 
+       
+        #iframe-container{
+            width: 90%;
+            height: 515px;
+        }
         .video-heading {
             width: 70%;
             margin: auto;
@@ -68,10 +73,10 @@
             color: #333333;
         }
 
-        /* .video-img {
+        .video-img {
             width: 700px;
             height: 225;
-        } */
+        }
 
         .middle-part-heading {
             padding: 40px 32px;
@@ -190,7 +195,7 @@
         }
 
         .background-plans-menu {
-            width: 100%;
+            width: 99%;
             height: 250px;
             color: #3167ff;
             border: 2px solid #ffffff;
@@ -274,7 +279,6 @@
         }
 
         /* Why we choose Freshly */
-
         .why-fershly-choose-heading {
             padding: 40px 32px;
         }
@@ -294,7 +298,6 @@
             display: grid;
             width: 70%;
             margin: auto;
-
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto;
             /* border: 2px solid rebeccapurple; */
@@ -346,163 +349,10 @@
 
         }
 
-        .iframe-container {
-            /* position: relative;
-            width: 100%;
-            padding-bottom: 56,25%;
-            height: 0; */
-            width: 100%;
-            /* height: 200px; */
-        }
-
- 
-
-        /* medium screen */
-        @media all and (min-width : 381px) and (max-width: 1000px) {
-            #header {
-                width: 85%;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: auto;
-                margin: auto;
-
-                color: #FFFFFF;
-            }
-
-            .horizontal {
-                width: 100%;
-                border: 0.01px solid black;
-
-            }
-
-            .about {
-                font-size: 38px;
-                font-weight: bolder;
-                padding: 20px 22px;
-                text-align: center;
-                font-family: sans-serif;
-                color: #333333;
-            }
-
-            .video {
-                text-align: center;
-                padding: 40px 32px;
-            }
-
-            .video-heading {
-                width: 95%;
-                margin: auto;
-                padding: 20px;
-            }
-
-            .video-heading>h1 {
-                font-size: 25px;
-                color: #333333;
-            }
-
-            .video-heading>p {
-                font-size: 15px;
-                color: #333333;
-            }
-        .middle-part-heading {
-            padding: 40px 32px;
-        }
-
-        .middle-part-heading>h1,
-        p {
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .middle-part-heading>h1 {
-            color: #333333;
-            font-size: 30px;
-            margin: 0px 0px 10px;
-        }
-
-        .columm-div-3 {
-            display: grid;
-            width: 90%;
-            margin: auto;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: auto;
-            /* border: 2px solid rebeccapurple; */
-            gap: 20px;
-        }
-
-        .columm-div-3>div {
-            /* border: 2px solid red; */
-            padding: 4px;
-        }
-
-        .columm-div-3-img>img {
-            width: 80%;
-            height: 170px;
-            padding: 40px;
-            align-items: center;
-        }
-
-        .columm-div-3-1>h1,
-        p {
-            text-align: center;
-        }
-
-        .columm-div-3-1>h1 {
-            margin: 0px 0px 8px;
-            color: #333333;
-            font-family: sans-serif;
-            font-size: 24px;
-        }
-
-        .columm-div-3-1>p {
-            margin: 0px 0px 12px;
-            color: #333333;
-            font-family: sans-serif;
-            font-size: 15px;
-        }
-
-        .learn-more {
-            width: 25%;
-            height: auto;
-            margin: auto;
-            /* border: 2px solid yellow; */
-            background-color: #3167ff;
-        }
-        .food-image-1 {
-            width: 90%;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2,1fr);
-            gap: 60px;
-            /* margin: 25px 40px; */
-
-        }
-      .food-image-1{
-          display: flex;
-      }
-       
-
-        }
-
         
-       .food-image-1
-       {
-           width: 60%;
-           display: flex;
-           gap: 70px;
-           margin: 30px 250px;
-           
-       }
-      
-       .food-image-1-img>img{
-           width: 100%;
-           height:250px;
-           padding: 32px 0px 32px 32px;
-       }
-       .food-image-1-content{
-        padding: 32px 0px 32px 32px;
-        margin: 50px 20px;
-       }
+        @media all and (min-width : 381px) and (max-width: 1000px) {
+         
+        }
 
     </style>
 </head>
@@ -520,12 +370,13 @@
             <h1>Heat-and-eat in 3 minutes or less</h1>
             <p>See just how easy it is to prepare a chef-cooked Freshly meal</p>
         </div>
-        <div class="iframe-container">
-            <iframe width="1060" height="515" src="https://www.youtube.com/embed/kPB7ZgY8RqA"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+     
+            <iframe id="iframe-container" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen src="https://www.youtube.com/embed/kPB7ZgY8RqA"
+                ></iframe>
+
+        
     </div>
 
 
@@ -625,7 +476,7 @@
                 <div class="How-Freshly-Work-Middle-1">
                     <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/5d7ffdc4d863541cac775fa4_Heat%20your%20meal-p-500.png"
                         alt="" srcset="">
-                    <h2>How to Heat Freshly Mealss</h2>
+                    <h2>How to Heat Freshly Meals</h2>
                 </div>
                 <div class="How-Freshly-Work-Middle-1">
                     <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/5d7ffdc4d863541cac775fa4_Heat%20your%20meal-p-500.png"
@@ -664,7 +515,7 @@
             </div>
             <div class="food-image-1-content">
                 <h1>Manage your dietary preferences</h1>
-                <p>Freshly chefs use clever swap and sneaky veggies to craft meals with unexpected twists—so every bite
+                <p>Freshly chefs use clever swaps and sneaky veggies to craft meals with unexpected twists—so every bite
                     is as nutritious as it is delicious.</p>
                 <p id="anchor">Learn more</p>
             </div>
@@ -684,7 +535,7 @@
                 <div class="why-freshly-choose-img">
                     <img src="Images/food2.jpg" alt="" srcset="">
                 </div>
-                <h1>Why Freshly is Betters Than Meal Kits</h1>
+                <h1>Why Freshly is Better Than Meal Kits</h1>
             </div>
             <div class="why-freshly-choose-1">
                 <div class="why-freshly-choose-img">
@@ -697,16 +548,15 @@
                     <img src="Images/IMG5.png" alt="" srcset="">
                 </div>
                 <h1>Three Reason to Leave Takeout Freshly</h1>
-                
             </div>
-           
 
         </div>
 
-            <!-- LEARN MORE of How Freshly Works-->
-           <div class="learn-more">
+        <!-- LEARN MORE of How Freshly Works-->
+        <div class="learn-more">
             <p><a href="http://www.google.com"></a>Learn More</p>
         </div>
+
         <!-- last part we ready -->
         <div class="bottomPart">
             <div class="lastpartHeading">
@@ -718,6 +568,7 @@
         </div>
         <!-- </div> -->
 
+         
     </div>
 
 
