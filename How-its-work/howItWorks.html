@@ -68,10 +68,10 @@
             color: #333333;
         }
 
-        .video-img {
+        /* .video-img {
             width: 700px;
             height: 225;
-        }
+        } */
 
         .middle-part-heading {
             padding: 40px 32px;
@@ -273,7 +273,7 @@
             text-align: center;
         }
 
-                /* Why we choose Freshly */
+        /* Why we choose Freshly */
 
         .why-fershly-choose-heading {
             padding: 40px 32px;
@@ -344,6 +344,153 @@
             padding-top: 20px;
 
         }
+
+        .iframe-container {
+            /* position: relative;
+            width: 100%;
+            padding-bottom: 56,25%;
+            height: 0; */
+            width: 100%;
+            /* height: 200px; */
+        }
+
+        /* .iframe-container iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        } */
+
+        /* medium screen */
+        @media all and (min-width : 381px) and (max-width: 1000px) {
+            #header {
+                width: 85%;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                margin: auto;
+
+                color: #FFFFFF;
+            }
+
+            .horizontal {
+                width: 100%;
+                border: 0.01px solid black;
+
+            }
+
+            .about {
+                font-size: 38px;
+                font-weight: bolder;
+                padding: 20px 22px;
+                text-align: center;
+                font-family: sans-serif;
+                color: #333333;
+            }
+
+            .video {
+                text-align: center;
+                padding: 40px 32px;
+            }
+
+            .video-heading {
+                width: 95%;
+                margin: auto;
+                padding: 20px;
+            }
+
+            .video-heading>h1 {
+                font-size: 25px;
+                color: #333333;
+            }
+
+            .video-heading>p {
+                font-size: 15px;
+                color: #333333;
+            }
+        .middle-part-heading {
+            padding: 40px 32px;
+        }
+
+        .middle-part-heading>h1,
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .middle-part-heading>h1 {
+            color: #333333;
+            font-size: 30px;
+            margin: 0px 0px 10px;
+        }
+
+        .columm-div-3 {
+            display: grid;
+            width: 90%;
+            margin: auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            /* border: 2px solid rebeccapurple; */
+            gap: 20px;
+        }
+
+        .columm-div-3>div {
+            /* border: 2px solid red; */
+            padding: 4px;
+        }
+
+        .columm-div-3-img>img {
+            width: 80%;
+            height: 170px;
+            padding: 40px;
+            align-items: center;
+        }
+
+        .columm-div-3-1>h1,
+        p {
+            text-align: center;
+        }
+
+        .columm-div-3-1>h1 {
+            margin: 0px 0px 8px;
+            color: #333333;
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+
+        .columm-div-3-1>p {
+            margin: 0px 0px 12px;
+            color: #333333;
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .learn-more {
+            width: 25%;
+            height: auto;
+            margin: auto;
+            /* border: 2px solid yellow; */
+            background-color: #3167ff;
+        }
+        .food-image-1 {
+            width: 90%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2,1fr);
+            gap: 60px;
+            /* margin: 25px 40px; */
+
+        }
+      .food-image-1{
+          display: flex;
+      }
+       
+
+        }
+
+        /* small screen */
+        @media all and (min-width : 50px) and (max-width : 380px) {}
     </style>
 </head>
 
@@ -360,11 +507,11 @@
             <h1>Heat-and-eat in 3 minutes or less</h1>
             <p>See just how easy it is to prepare a chef-cooked Freshly meal</p>
         </div>
-        <div class="video-bottom">
-            <p><a
-                    href="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fllltuzvd35&amp;display_name=Wistia%2C%2BInc.&amp;url=https%3A%2F%2Ffreshly-1.wistia.com%2Fmedias%2Fllltuzvd35&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fd57d161d4d1f339f6b086dafa828f9d4.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia&amp;wvideo=llltuzvd35">
-                    <img src="https://embedwistia-a.akamaihd.net/deliveries/d57d161d4d1f339f6b086dafa828f9d4.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=07872be0"
-                        , class="video-image"></a></p>
+        <div class="iframe-container">
+            <iframe width="1060" height="515" src="https://www.youtube.com/embed/kPB7ZgY8RqA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 
@@ -537,10 +684,16 @@
                     <img src="Images/IMG5.png" alt="" srcset="">
                 </div>
                 <h1>Three Reason to Leave Takeout Freshly</h1>
+                
             </div>
+           
 
         </div>
 
+            <!-- LEARN MORE of How Freshly Works-->
+           <div class="learn-more">
+            <p><a href="http://www.google.com"></a>Learn More</p>
+        </div>
         <!-- last part we ready -->
         <div class="bottomPart">
             <div class="lastpartHeading">
