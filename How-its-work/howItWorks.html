@@ -294,6 +294,7 @@
             display: grid;
             width: 70%;
             margin: auto;
+
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto;
             /* border: 2px solid rebeccapurple; */
@@ -354,13 +355,7 @@
             /* height: 200px; */
         }
 
-        /* .iframe-container iframe{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        } */
+ 
 
         /* medium screen */
         @media all and (min-width : 381px) and (max-width: 1000px) {
@@ -489,8 +484,26 @@
 
         }
 
-        /* small screen */
-        @media all and (min-width : 50px) and (max-width : 380px) {}
+        
+       .food-image-1
+       {
+           width: 60%;
+           display: flex;
+           gap: 70px;
+           margin: 30px 250px;
+           
+       }
+      
+       .food-image-1-img>img{
+           width: 100%;
+           height:250px;
+           padding: 32px 0px 32px 32px;
+       }
+       .food-image-1-content{
+        padding: 32px 0px 32px 32px;
+        margin: 50px 20px;
+       }
+
     </style>
 </head>
 
