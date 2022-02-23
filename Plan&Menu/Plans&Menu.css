@@ -182,3 +182,32 @@ margin-top: 100px;
     margin-left:500px;
     margin-right: 10px;
   }
+  #BIG {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, fr);
+    width: 98%;
+    margin-left: 20px;
+    gap: 10px;
+    margin-top: 70px;
+  }
+  #BIG > div {
+    width: 290px;
+    height: 360px;
+  }
+  img {
+    width: 287px;
+    height: 290.83px;
+    border: 0;
+    vertical-align: middle;
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+  h4 {
+    height: 20px;
+    margin-top: -6px;
+  }
+  #bigparagraph {
+    margin-top: -15px;
+  }
+  
