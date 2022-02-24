@@ -16,7 +16,7 @@
     padding: 0px 10px 10px 10px;
     color: #685c5c;
     width:40%;
-  
+
     
   }
   #nav > div:nth-child(2){
@@ -26,35 +26,31 @@
   
   #nav1 {
     display: flex;
-    width: 100%;
+    width: 90%;
     margin-top: 0%;
-    height: 70px;
+    height: auto;
     margin: auto;
     background-color: #fffdf7;
   }
   #nav1 > div {
     margin: auto;
     height: 100%;
-  
+   
     display: flex;
   }
   
   #nav1 > div:nth-child(1) {
-    display: flex;
     width: 10%;
     width: 106px;
     height: 24px;
     margin-left: 0px;
     padding-left: 15px;
-    align-items: center;
-
   }
   #nav1 > div:nth-child(2) {
     width: 38%;
     justify-content: space-between;
-    font-weight: 700;
-    color:black;
-    margin-top: 12px;
+  
+    color:rgb(2, 2, 2);
    
     
   }
@@ -66,16 +62,17 @@
   #signup {
     background-color: #3167ff;
     color: white;
-  
-    font-size: 14px;
+    padding: 8px 12px;
+    font-size: 16px;
     font-weight: 500;
-    margin-left: -50px;
-    height: 8px;
-    margin-top: 12px;
+    margin-left: -30px;
   }
   #login {
-    padding-right: 60px;
-    margin-top: 12px;
+    padding-right: 40px;
+   
+    font-weight: 700;
+    color: #222;
+    margin-top: 25px;
   }
   
   /* adfddgfhgjmkj */
@@ -89,9 +86,9 @@
   a{
     text-decoration: none;
     color: black;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 15px;
+    
+   
+
   }
   a:hover{
     color: blue;

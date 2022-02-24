@@ -1,26 +1,18 @@
-footer{
-    margin-top: 40px;
-}
-body{
-    background-color: white;
-}
-*{
-    font-family:  sans-serif;
-    
-}
-p{
-    color: #666666;
-    font-size: 13px;
-}
-#footer{
+
+#foot{
     display: grid;
     width: 70%;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,400px);
     margin: auto;
     gap:20px;
+    margin-top: 50px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 250px;
 }
-#footer>div:nth-child(1){
+#foot>div:nth-child(1){
     width: 114px;
     height: 26px;
 }
@@ -41,11 +33,11 @@ p{
 .icon>i{
     margin-right: 10px;
     margin-top: 10px;
+    /* color: #666666;
+    font-family:  sans-serif; */
 }
-li{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 8px 0px;
-    color: #666666;
-    font-size: 13px;
+.hat{
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+    
 }
