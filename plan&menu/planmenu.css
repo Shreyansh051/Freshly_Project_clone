@@ -56,10 +56,10 @@
   background-size: cover;
 }
 .meal {
-  height: 40%;
-  text-align: center;
-  font-size: 30px;
-  width: 220px;
+  font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
   color: rgb(53, 116, 113);
 }
 .tag1 {
@@ -107,17 +107,22 @@
   margin-top: 8px;
 }
 #icon {
-  margin-left: 42%;
+  margin-left: 45%;
   margin-bottom: -20px;
-  margin-top: 90px;
+  margin-top: 70px;
+  text-align: center;
 }
 #para {
-  width: 52%;
+  width: 58%;
   margin: auto;
-  line-height: 20px;
+  line-height:20px;
+  
 }
 #head {
   text-align: center;
+  font-size: 2.375rem;
+    line-height: 1.16em;
+
 }
 #ship {
   text-align: center;
@@ -147,12 +152,13 @@
 #heading {
   text-align: center;
   margin: 0 0 24px;
-  color: #333;
+  
   font-size: 3rem;
   line-height: 1.08em;
   font-weight: 700;
   font-family: Favoritfreshly, sans-serif;
   margin-top: 100px;
+  color: #333;
 }
 #bigpara {
   width: 62%;
@@ -174,6 +180,11 @@
     margin-top:20px;
     margin-left:500px;
     margin-right: 10px;
+    color: #8c8c8c;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
   }
   #BIG {
     display: grid;
@@ -188,14 +199,7 @@
     width: 290px;
     height: 360px;
   }
-  #iconic{
-    width: 287px;
-    height: 290.83px;
-    border: 0;
-    vertical-align: middle;
-    margin-bottom: 16px;
-    border-radius: 16px;
-  }
+ 
   h4 {
     height: 20px;
     margin-top: -6px;
@@ -251,7 +255,27 @@ h4 {
   margin-top: -15px;
 }
 
-
+#headding{
+  margin-bottom: 10px;
+    font-size: 48px;
+    text-align: center;
+    color: #333;
+    font-size: 3rem;
+    line-height: 1.08em;
+    font-weight: 700;
+    margin-top:90px;
+}
+#ppara{
+  text-align: center;
+  font-family: Favoritfreshly,sans-serif;
+  color: #333;
+  font-size: .875rem;
+  line-height: 1.43em;
+  font-weight: 400;
+  width:50% ;
+  margin:auto;
+  margin-top: 30px;
+}
   
   
   

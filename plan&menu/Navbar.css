@@ -49,8 +49,8 @@
   #nav1 > div:nth-child(2) {
     width: 38%;
     justify-content: space-between;
-    font-weight: 700;
-    color:black;
+  
+    color:rgb(2, 2, 2);
    
     
   }
