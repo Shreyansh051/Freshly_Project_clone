@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
  var giftedMeals = [
     { name: "Steak Peppercorn", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg", },
@@ -28,4 +29,29 @@
 
     div.append(avatar, name);
     document.querySelector("#gift_choice").append(div);
+=======
+var gifts = [
+    { name: "Steak Peppercorn", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg",  },
+    { name: "Homestyle Chicken", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6708c070e7d41_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg",  },
+    { name: "Cauliflower Shell Beef Bolognese", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b89b735739065897a4f_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg",  },
+    { name: "Sausage Baked Penne", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65081fd159c6_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg", },
+    { name: "Savory-Sweet Chicken Teriyaki Bowl", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8e6dd23b60cb122654_production-meal-image-92ec0fc1-d352-4720-9b83-96798ab8d2de.jpeg",},
+    { name: "Protein-Packed Chicken Parm", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/610640046931cb5d54bd5472_production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpeg",  },
+    { name: "Golden Oven-Fried Chicken & Mash", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b94f03e50f2e0d2b7f3_production-meal-image-bc1b24c8-f62a-4756-a40e-173a8b67a590.jpeg", },
+    { name: "Zingy Buffalo Chicken", image: "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b9a85b43c3383a0a3b3_production-meal-image-ef64cbd3-cc91-4c5f-9865-b9ff0442572e.jpeg", },
+  
+   
+];
+
+gifts.map(function(elem, index){
+    var div = document.createElement("div");
+    var avatar = document.createElement("img");
+    avatar.setAttribute("src", elem.image);
+    avatar.setAttribute("class","gift_img");
+    var name = document.createElement("h4");
+    name.innerText = elem.name;
+    var cal = document.createElement("p");
+    div.append(avatar, name);
+    document.querySelector("#choice_gift").append(div);
+>>>>>>> Stashed changes
 });
