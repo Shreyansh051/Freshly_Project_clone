@@ -40,8 +40,8 @@
 .hat{
     color: rgb(7, 7, 7);
     font-size: 16px;
-    
+    text-align: left;
 }
 div>p{
-  text-align: left;
+    text-align: left;
 }
