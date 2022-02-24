@@ -6,69 +6,91 @@
 body{
     text-align: center;
 }
-#nav{
-    width: 70px;
-    height: 15px;
+* {
+    font-family: sans-serif;
+  }
+  #nav {
+    width: 18%;
+    height: 25px;
     display: flex;
     margin: auto;
-    margin-top: 0px;
-    background-color: white;
-    padding: 10px;
-
-}
-#nav>div{
-    display: flex;
-}
-#nav>div:nth-child(1){
-    margin-right: 20px;
-}
-#nav>div>span:nth-child(1){
+    box-sizing: border-box;
+  }
+  
+  #nav > div:nth-child(1) {
+      border-bottom: 2px solid transparent; 
+      border-bottom-color: #03514e;
+      margin-right: 10px;
+    padding: 0px 10px 10px 10px;
     color: #685c5c;
-}
-#nav>div>span:nth-child(2){
-    color:rgb(184, 179, 179);
-}
-#nav1{
-display: flex;
-width: 100%;
-margin-top: 0%;
-height: auto;
-margin: auto;
-background-color: #fffdf7;
-}
-#nav1>div{
-
+    width:40%;
+  
+    
+  }
+  #nav > div:nth-child(2){
+      width: 30px;
+  }
+  
+  
+  #nav1 {
+    display: flex;
+    width: 100%;
+    margin-top: 0%;
+    height: auto;
+    margin: auto;
+    background-color: #fffdf7;
+  }
+  #nav1 > div {
     margin: auto;
     height: 100%;
-
+  
     display: flex;
-}
-
-
-#nav1>div:nth-child(1){
+  }
+  
+  #nav1 > div:nth-child(1) {
     width: 10%;
     width: 106px;
     height: 24px;
     margin-left: 0px;
     padding-left: 15px;
-}
-#nav1>div:nth-child(2){
-    width: 40%;
+  }
+  #nav1 > div:nth-child(2) {
+    width: 38%;
     justify-content: space-between;
-}
-#nav1>div:nth-child(3){
+    font-weight: 700;
+    color:black;
+   
+    
+  }
+  #nav1 > div:nth-child(3) {
     width: 12%;
     margin-right: -0px;
-
-}
-#signup{
-    background-color: #4040f8;
+    font-size: 14px;
+  }
+  #signup {
+    background-color: #3167ff;
     color: white;
-    padding: 6px 5px;
-}
-#login{
-    padding: 6px 5px;
-}
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -30px;
+  }
+  #login {
+    padding-right: 40px;
+   
+    font-weight: 700;
+    color: #222;
+    margin-top: 25px;
+  }
+  
+  /* adfddgfhgjmkj */
+  
+  .hover > p:hover {
+      color: #2a6dff;
+  }
+  .hover:hover {
+      color: #2a6dff;
+  }
 
 #intro{
     /* width:80% */
