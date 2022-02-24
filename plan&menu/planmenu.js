@@ -66,7 +66,7 @@ StoreMeals.map(function (elem, index, array) {
     var avatar = document.createElement("img");
 
     avatar.setAttribute("src", elem.image);
-    avatar.setAttribute('id',"avatar")
+    avatar.setAttribute('id',"avatar")    
     var name = document.createElement("h4");
     name.innerText = elem.name;
     var cal = document.createElement("p");
