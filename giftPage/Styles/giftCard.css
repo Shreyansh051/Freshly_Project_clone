@@ -1,6 +1,6 @@
 *{
     font-family: sans-serif;
-    border: 1px solid rgb(47, 78, 255);
+    /* border: 1px solid rgb(47, 78, 255); */
     
 }
 body{
@@ -73,11 +73,14 @@ background-color: #fffdf7;
 #intro{
     /* width:80% */
     display: flex;
-    gap:30%;
+    /* gap:30%; */
+}
+#intro :first-child{
+    margin-top: 8%;
 }
 #intro >div>img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     /* margin-right: 0px; */
 }
 
@@ -92,9 +95,10 @@ background-color: #fffdf7;
     /* grid-template-columns: repeat(4,1fr);*/
     gap:15% ;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .image_logo{
-    width: 90%;
+    width: 50%;
     height:50%
 }
 
@@ -119,4 +123,82 @@ background-color: #fffdf7;
   /* object-fit: none; Do not scale the image */
   object-position: center; 
 }
+
+#mid_lower_bg{
+    background-image: url(https://img1.goodfon.com/wallpaper/nbig/7/cf/autumn-leaves-berries-still-4661.jpg);
+    /* height: 500px; You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#gift_choice {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 5%; */
+    /* background-color: whitesmoke; */
+    width: 70%;
+    margin: 8% auto;
+    
+}
+
+#gift_choice>div >img{
+    width: 80%;
+    
+}
+
+#gift_choice>div{
+    margin: 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+}
+#mid_lower_bg >div{
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 5% auto;
+    
+}
+
+#mid_lower_bg >div > button{
+    padding: 15px;
+    margin-bottom: 3%;
+    color: white;
+    background-color: royalblue;
+    border: none;
+}
+
+
+
+#foot{
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,400px);
+    margin: auto;
+    gap:20px;
+}
+#foot>div:nth-child(1){
+    width: 114px;
+    height: 26px;
+}
+.baner{
+    width: 126px;
+    height: 30px;
+    margin-top: 20px;
+}
+.baner>img{
+    width: 100%;
+    height: auto;
+}
+.icon{
+    width: 126px;
+    height: 30px;
+
+}
+.icon>i{
+    margin-right: 10px;
+    margin-top: 10px;
+    /* color: #666666;
+    font-family:  sans-serif; */
+}
+
 
