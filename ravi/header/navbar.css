@@ -75,9 +75,7 @@ background-color: #fffdf7;
 .hover>p:hover {
     color: blue;
     }
-.hover:hover {
-    color: blue;
-}
+
 #signup:hover{
     background-color:blue;
     
