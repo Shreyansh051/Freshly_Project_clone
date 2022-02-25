@@ -150,3 +150,38 @@ a:hover{
  #col:hover{
      color: #0c3388fb;
  }
+ #footer div {
+    width: 85%;
+    /* border: 1px solid black; */
+    margin-left: 14%;
+    /* margin-top: 60px; */
+  }
+  #footer div div {
+    width: 15%;
+    float: left;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #footer div div p {
+    
+    font-weight: 600
+  }
+  #footer div div a {
+      color: #2a6dff;
+      font-size: .875rem;
+    text-decoration: underline;
+  }
+  #footer div div a img {
+    margin-right: 6%;
+  }
+  
+  .marginleft span {
+    /* padding-top: 80px; */
+    margin-left: 3%;
+  }
+  .padd {
+    /* padding-top: 100px; */
+    display: none;
+  }
