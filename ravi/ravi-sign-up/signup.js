@@ -23,7 +23,7 @@ function signup(event){
     localStorage.setItem('registerdata',JSON.stringify(signupArr))
 
     document.querySelector("input[type='submit']").addEventListener("click" , function(){
-        window.location.href = "../login/hacker.html"
+        window.location.href = "../login/login.html"
     })
 
 }
