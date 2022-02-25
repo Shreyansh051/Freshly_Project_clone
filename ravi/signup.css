@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    height: auto;
+    width: 25%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.inputstyle{
+    width: 90%;
+    height: 25px;
+    margin-bottom: 10px;
+    margin: 2px;
+
+}
+#submit{
+    width: 30%;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 3px;
+    border:none;
+    
+}
