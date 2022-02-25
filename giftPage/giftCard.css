@@ -18,16 +18,15 @@ body{
 }
 #nav>div{
     display: flex;
+    
 }
 #nav>div:nth-child(1){
-    margin-right: 20px;
+    margin-right: 20px; 
+    border-bottom: 2px solid transparent;
+    border-bottom-color: #03514e;
+   
 }
-#nav>div>span:nth-child(1){
-    color: #685c5c;
-}
-#nav>div>span:nth-child(2){
-    color:rgb(184, 179, 179);
-}
+
 #nav1{
 display: flex;
 width: 100%;
@@ -211,17 +210,6 @@ background-color: #fffdf7;
 .baner>img{
     width: 100%;
     height: auto;
-}
-.icon{
-    width: 126px;
-    height: 30px;
-
-}
-.icon>i{
-    margin-right: 10px;
-    margin-top: 10px;
-    color: #666666;
-    font-family:  sans-serif;
 }
 
 
@@ -487,4 +475,3 @@ background-color: #fffdf7;
 }
 
 }
-
