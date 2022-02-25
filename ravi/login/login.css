@@ -2,47 +2,10 @@
     font-family: sans-serif;
 }
 
-#email{
-  margin-left:530px;
-    font-size:15px;
-    margin-bottom: 15px;
-}  
-input{
-  
-    /* text-align: center;
-    justify-content: center; */
-   width:450px;
-   height: 30px;
-   font-size:15px;
-   margin-bottom: 0px;
-   margin-top:0px;
-}
-#pass{
-    margin-left:530px;
-    font-size:15px;
-    margin-bottom: 15px;
-    
-   
-}
-/* #login{
-    margin-left: 35%;
-    text-align: center;
-    justify-content: center;
-   width:460px;
-   height: 40px;
-   
-   background-color:blue;
-   color:white;
-   margin-top: 15px;
-   margin-bottom: 30px;
-   
-} */
-.op{
-    margin-left:530px;
-   
-}
+
+
 #parent{
-    height:60px;
+    height:50px;
     width:100%;
     margin: auto;
     display:flex;
@@ -62,8 +25,8 @@ input{
 #photo{
     height:30px;
    margin-right:10px;
-    margin-top:20px;
-    margin-left: 20%;
+    margin-top:10px;
+    margin-left: 10%;
 }
 #parent > div:last-child{
     padding-left:0px;
@@ -88,14 +51,14 @@ input{
     
    }
 .slow{
-    height:45px;
+    height:38px;
     width:90px;
     color: #fff;
     background-color: #2a6dff;
     border: none;
     cursor: pointer;
     margin-left:3%;
-   margin-top: 5px;  
+   
    font-weight: 800;
 
  
@@ -124,37 +87,66 @@ a:hover{
 #special-font {
     text-align: center;
     font-family: "Redressed";
-    font-weight: 100;
+    font-weight: 100px;
     padding-top: 10px;
   }
   #cont {
-    width: 100%;
+    width:100%;
     background-color: #fffdf7;
     height: 500px;
     position: relative;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.733);
+    border-top: 2px solid rgb(226, 226, 226);
+    border-bottom: 2px solid rgb(226, 226, 226);
   }
-  #login {
-    width: 450px;
+
+  #head{
+    width:100%;
     margin: auto;
     position: absolute;
-    top: 14%;
-    left: 35%;
+   margin-top: 90px;
+   text-align: center;
+   margin-left: 5px;
+    font-size:3rem;
+    font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #303030;
+  }
+  #login {
+    width: 500px;
+    height: 245px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 30%;
     cursor: pointer;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(0, 0, 0, 0.2);
-    background-color: white;
+  
     text-align: center;
   }
   #login input {
-    width: 370px;
+    width: 485px;
     height: 25px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-bottom: 10px;
     padding-left: 8px;
-    border: 0.5 px solid rgba(0, 0, 0, 0.3);
-  }
-  #login a {
-    text-decoration: none;
+    border: 0.5 px solid rgba(12, 11, 80, 0.3);
   }
  
+ #set2{
+     text-align:left;
+   
+     margin-bottom: 5px;
+     font-size: .875rem;
+     font-weight: bold;
+ }
+ #set{
+     display: flex;
+     justify-content:space-between;
+     
+ }
+ #col{
+     color: rgb(49,103,255);
+     text-decoration: underline;
+ }
+ #col:hover{
+     color: #0c3388fb;
+ }
