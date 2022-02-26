@@ -26,7 +26,7 @@ function login(event){
             alert("user id password wrong")
         }
         document.querySelector('input[type="submit"]').addEventListener('click',function(){
-            window.location.href = '../Plan&Menu/Plans&Menu.html';
+            window.location.href = '../ADD TO CART/plan.html';
         })
     
 }
