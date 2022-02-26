@@ -89,6 +89,6 @@ titles.forEach((title) => {
   });
 });
 
-document.querySelector('.meal').addEventListener('click',function(){
-  window.location.href("../ADD TO CART/plan.html")
-})
+// document.querySelector('.meal').addEventListener('click',function(){
+//   window.location.href("../ADD TO CART/plan.html")
+// })
