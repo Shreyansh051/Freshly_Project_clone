@@ -61,6 +61,7 @@ var StoreMeals = [
 
 ];
 var addToCartArr = JSON.parse(localStorage.getItem("addToCartObj")) || [];
+document.querySelector("span").innerHTML=addToCartArr.length;
 
 StoreMeals.map(function (elem, index, array) {
     // image, name , company logo image , role
@@ -92,4 +93,5 @@ function addToCart(elem)
     addToCartArr.push(elem);
     // console.log(addToCartArr);
     localStorage.setItem("addToCartObj", JSON.stringify(addToCartArr));
+    document.querySelector("span").innerHTML=addToCartArr.length;
 }

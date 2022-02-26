@@ -88,3 +88,7 @@ titles.forEach((title) => {
     title.parentNode.classList.toggle("active");
   });
 });
+
+document.querySelector('.meal').addEventListener('click',function(){
+  window.location.href("../ADD TO CART/plan.html")
+})
