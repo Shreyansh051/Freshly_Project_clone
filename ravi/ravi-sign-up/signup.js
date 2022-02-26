@@ -1,22 +1,18 @@
-document.querySelector('#form').addEventListener('submit',signup);
+document.querySelector('#form101').addEventListener('submit',signup);
 
 var signupArr = JSON.parse(localStorage.getItem('registerdata'))||[];
 
 function signup(event){
     event.preventDefault()
-
-    var name = document.querySelector('#name').value;
-    var mobile = document.querySelector("#mobile").value
-    var email = document.querySelector("#email").value
-    var pass = document.querySelector("#pass").value
+    var email = document.querySelector("#email").value;
+    var pass = document.querySelector("#zip").value;
 
     var signupObj = {
-        name : name,
-        mobile:mobile,
+       
         email :email,
         pass : pass,
 
-    }
+    };
     //console.log(signupObj)
     signupArr.push(signupObj)
     //console.log(signupArr)
