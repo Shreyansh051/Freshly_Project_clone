@@ -75,3 +75,16 @@ StoreMeals.map(function (elem, index, array) {
     div.append(avatar, name, cal);
     document.querySelector("#BIG").append(div);
 });
+var toggles = document.querySelectorAll(".faq-toggle");
+var titles = document.querySelectorAll(".faq-title");
+
+toggles.forEach((toggle) => {
+  toggle.addEventListener("click", () => {
+    toggle.parentNode.classList.toggle("active");
+  });
+});
+titles.forEach((title) => {
+  title.addEventListener("click", () => {
+    title.parentNode.classList.toggle("active");
+  });
+});
