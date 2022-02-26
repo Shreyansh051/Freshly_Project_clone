@@ -14,7 +14,7 @@ document.querySelector('#helf').addEventListener('click',function(){
     window.location.href = '../Help Page/helpPage.html';
   }) 
 document.querySelector('#login').addEventListener('click',function(){
-    window.location.href = '../login/hacker.html';
+    window.location.href = '../login/login.html';
   }) 
 document.querySelector('#signup').addEventListener('click',function(){
     window.location.href = '../ravi-sign-up/signup.html';
