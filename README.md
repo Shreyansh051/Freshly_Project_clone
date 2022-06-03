@@ -19,10 +19,10 @@ Gifts Page
 ![App Screenshot](./ReadFile/Screenshot%20(647).png)
 
 Refer&Earn Page
-![App Screenshot](./ReadFile/Screenshot%20(648).png)
+![App Screenshot](./ReadFile/Screenshot%20(651).png)
 
 Help Page
-![App Screenshot](./ReadFile/Screenshot%20(649).png)
+![App Screenshot](./ReadFile/Screenshot%20(652).png)
 
 
 Tech Stack :
