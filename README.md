@@ -3,15 +3,15 @@
 This project is a clone of freshly.com Freshly is a New York-based prepared meal delivery company that delivers throughout the United States. Founded by Michael Wystrach and Carter Comstock, the company ships one million meals per week and delivers to the contiguous United States. In 2020
  ## Screenshots
 
-![App Screenshot](../Clone Pages/ReadFile/Screenshot(646).png)
+![App Screenshot](../Freshly_Project_clone/Clone%20Pages/ReadFile/Screenshot%20(650).png)
 
-![App Screenshot](./readimages/Screenshot2%20.png)
+![App Screenshot](../Freshly_Project_clone/Clone%20Pages/ReadFile/Screenshot%20(646).png)
 
-![App Screenshot](./readimages/Screenshot%203.png)
+![App Screenshot](../Freshly_Project_clone/Clone%20Pages/ReadFile/Screenshot%20(647).png)
 
-![App Screenshot](./readimages/Screenshot4%20.png)
+![App Screenshot](../Freshly_Project_clone/Clone%20Pages/ReadFile/Screenshot%20(648).png)
 
-![App Screenshot](./readimages/Screenshot%205.png)
+![App Screenshot](../Freshly_Project_clone/Clone%20Pages/ReadFile/Screenshot%20(649).png)
 
 Tech Stack :
 The tech Stack we used for creating this website are :-
